@@ -28,7 +28,7 @@ class App extends React.Component {
                 ...snapShot.data()
               }
           });
-          console.log(this.state);
+
         })
       }
       else{
@@ -38,7 +38,7 @@ class App extends React.Component {
       }
       
       this.setState({currentUser:userAuth});
-      //createUserProfileDocument(user);
+      
     });
   }
 
